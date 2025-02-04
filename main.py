@@ -11,8 +11,8 @@ def read_file(file_path):
     return lines
 
 def process_data(lines):
-    """Processes the data."""
-    return [line for line in lines]
+    """Processes the data and converts each line to uppercase."""
+    return [line.upper() for line in lines]
 
 def write_file(file_path, lines):
     """Writes the processed lines to a new file."""
